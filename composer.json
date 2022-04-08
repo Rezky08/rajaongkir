@@ -1,11 +1,11 @@
 {
-    "name": "kavist/rajaongkir",
+    "name": "rezky/rajaongkir",
     "description": "Klien API PHP untuk RajaOngkir",
     "keywords": [
         "rajaongkir",
         "laravel"
     ],
-    "homepage": "https://github.com/kavist/rajaongkir",
+    "homepage": "https://github.com/Rezky08/rajaongkir",
     "license": "MIT",
     "authors": [
         {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kavist\\RajaOngkir\\": "src"
+            "Rezky\\RajaOngkir\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kavist\\RajaOngkir\\Tests\\": "tests"
+            "Rezky\\RajaOngkir\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kavist\\RajaOngkir\\Providers\\LaravelServiceProvider"
+                "Rezky\\RajaOngkir\\Providers\\LaravelServiceProvider"
             ],
             "aliases": {
-                "RajaOngkir": "Kavist\\RajaOngkir\\Facades\\RajaOngkir"
+                "RajaOngkir": "Rezky\\RajaOngkir\\Facades\\RajaOngkir"
             }
         }
     }
